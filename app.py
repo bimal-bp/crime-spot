@@ -4,7 +4,7 @@ import math
 import os
 
 # Load the model
-model_path = os.path.join(os.path.dirname(__file__), "model.pkl")  # Ensure correct path
+model_path = os.path.join(os.path.dirname(__file__), "Model/model.pkl")  # Ensure correct path
 try:
     with open(model_path, 'rb') as file:
         model = pickle.load(file)
